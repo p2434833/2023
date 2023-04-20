@@ -1,0 +1,25 @@
+header {
+    color: whitesmoke;
+        min-height: 101vh;
+}
+
+
+
+body{
+    font-family:sans-serif;
+    background-image: url('BLACK.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+nav {
+    display: flex;
+    justify-content:center; 
+    gap: 2em; 
+    padding: 1em;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+}
