@@ -40,6 +40,28 @@ a:hover:after{
     width: 100%;
 
 }
-a:hover:after{
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+ }
+ 
+ .container{
     width: 100%;
-}
+    height: 100%;
+    background-image: url('BLACK.png');
+    display: flex;
+    align-items: center;
+ }
+ form{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 2vw;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+ }
